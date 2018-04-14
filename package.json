@@ -1,0 +1,23 @@
+{
+  "name": "with-styles",
+  "version": "0.1.0",
+  "description": "react style hoc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "placeholder"
+  },
+  "keywords": [
+    "react",
+    "style",
+    "hoc"
+  ],
+  "author": "rubixibuc",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
