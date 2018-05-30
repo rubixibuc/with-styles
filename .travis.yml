@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "8"
+deploy:
+  provider: npm
+  email: rubixibuc@gmail.com
+  api_key:
+    secure: WnQdPnv7Mu51ccwxeLTtM5FQ/inSP/Q6B0EbfgZRDk0jPNgPiZiAjEggp0rXbpaafR1bEagydId23EEOfiaPHN7FGojKb17TxJCnIMxRjpPDxkLY9l+v0KwY19SfrNEPDVyyPnC5XJi8hDAVH6/Az+RLZ/GdG+Sr23DoDX2X2PVTF/7NkeZrDUdj2NV0E0HzLv8rFj88ZvkrmuzFXX9U2B0uR1B8GsxP/xzBMRS4jdrw37DfBmVMzmGfS0REKAjVaMaALlTPVsI8BC1HwTLFEwj9PGR0EfrBWrRqk3CVx0Fe9N1Cj8g0gpr2fn0h6rFrtC/INZFcujexsVZr6H2lJKIZ41MQjYe/gwySASjvzYM7mCYJCJDSkNq8xExl38DniVl47Owdr1fjWqugYKCu+8EsLPDQXMTU6kCmPi3LZq1dI8YZcbqBOomNdeFpgE0K9j4QeZxqT70AcQAKKk/r2GUgmU7u62c3SlVgW7Gxo2BUoO84jtbMIJLpvxrorpnR/7hCNZm3QrpdxIPznu3nkJZu8FALtnBB9RdxoGb4+55G4XrgdO0SsB3pCJ8WO1BI2qVYcKBK0r0VGeUQCdGDcXYJpk7ViGBmEi01ydHoA3VKr2LxUQ/oOHVMrwfah83MjvFAguU82QtgolscetuvlXaQmWs5UiHhuWXzHJDkegw=
+  on:
+    tags: true
+    repo: rubixibuc/with-styles
