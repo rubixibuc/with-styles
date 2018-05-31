@@ -56,7 +56,7 @@ import { compose } from 'recompose';
 export const enhance = compose(
   withState('backgroundColor', 'updateBackgroundColor', '#fff'),
   withStyles(({backgroundColor}) => ({
-    div: {
+    myDiv: {
       backgroundColor
     }
   }))
