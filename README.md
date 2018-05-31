@@ -1,15 +1,26 @@
+![Travis](https://travis-ci.org/rubixibuc/with-styles.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/rubixibuc/with-styles/badge.svg?branch=master)](https://coveralls.io/github/rubixibuc/with-styles?branch=master)
+
 # with-styles
 
-![Travis](https://travis-ci.org/rubixibuc/with-styles.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/rubixibuc/with-styles/badge.svg?branch=master)](https://coveralls.io/github/rubixibuc/with-styles?branch=master)
+React style HOC. Supports both plain style objects and style objects computed from passed props.
+
+## Getting Started
+
+### Installing
+
+```text
+npm i @rubixibuc/with-styles
+```
+
+### Usage
+
+#### without props
 
 ```jsx harmony
 import React from 'react';
 import withStyles from '@rubixibuc/with-styles';
-import { compose } from 'recompose';
 
 const myComponent = ({styles}) => <div style={styles.myDiv}/>;
-
-// without props
 
 export default withStyles({
   myDiv: {
@@ -17,8 +28,13 @@ export default withStyles({
     width: 500
   }
 })(myComponent);
+```
 
-// or with props
+#### with props
+
+```jsx harmony
+import React from 'react';
+import withStyles from '@rubixibuc/with-styles';
 
 export default withStyles(({someProp}) => ({
   myDiv: {
@@ -26,18 +42,21 @@ export default withStyles(({someProp}) => ({
     width: someProp.width
   }
 }))(myComponent);
+```
 
-// can be used with recompose
+#### with recompose
+
+```jsx harmony
+import React from 'react';
+import withStyles from '@rubixibuc/with-styles';
+import { compose } from 'recompose';
 
 export const enhance = compose(
-  withStyles({
-    // ...
-  }),
-  
-  // or
-  
-  withStyles(({someProp}) => ({
-    // ...
-  }))
+  withState('backgroundColor', 'updateBackgroundColor', '#fff')
+  withStyles(({backgroundColor}) => {
+    div: {
+      backgroundColor
+    }
+  })
 )
 ```
