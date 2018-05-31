@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with-styles should render component with styles when initialized with object 1`] = `
+<Component>
+  <Component
+    styles={
+      Object {
+        "div": Object {
+          "backgroundColor": "#000",
+        },
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "#000",
+        }
+      }
+    />
+  </Component>
+</Component>
+`;
+
+exports[`with-styles should render component with styles when initialized with object 2`] = `
+<Component
+  backgroundColor="#fff"
+>
+  <Component
+    backgroundColor="#fff"
+    styles={
+      Object {
+        "div": Object {
+          "backgroundColor": "#fff",
+        },
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+        }
+      }
+    />
+  </Component>
+</Component>
+`;

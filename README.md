@@ -1,5 +1,7 @@
 # with-styles
 
+![Travis](https://travis-ci.org/rubixibuc/with-styles.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/rubixibuc/with-styles/badge.svg?branch=master)](https://coveralls.io/github/rubixibuc/with-styles?branch=master)
+
 ```jsx harmony
 import React from 'react';
 import withStyles from '@rubixibuc/with-styles';
