@@ -52,11 +52,11 @@ import withStyles from '@rubixibuc/with-styles';
 import { compose } from 'recompose';
 
 export const enhance = compose(
-  withState('backgroundColor', 'updateBackgroundColor', '#fff')
-  withStyles(({backgroundColor}) => {
+  withState('backgroundColor', 'updateBackgroundColor', '#fff'),
+  withStyles(({backgroundColor}) => ({
     div: {
       backgroundColor
     }
-  })
+  }))
 )
 ```
