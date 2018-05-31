@@ -9,4 +9,3 @@ deploy:
   on:
     tags: true
     repo: rubixibuc/with-styles
-  skip_cleanup: true
