@@ -1,4 +1,4 @@
-![Travis](https://travis-ci.org/rubixibuc/with-styles.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/rubixibuc/with-styles/badge.svg?branch=master)](https://coveralls.io/github/rubixibuc/with-styles?branch=master)
+[![Build Status](https://travis-ci.org/rubixibuc/with-styles.svg?branch=master)](https://travis-ci.org/rubixibuc/with-styles) [![Coverage Status](https://coveralls.io/repos/github/rubixibuc/with-styles/badge.svg?branch=master)](https://coveralls.io/github/rubixibuc/with-styles?branch=master)
 
 # with-styles
 
