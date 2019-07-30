@@ -1,6 +1,6 @@
 {
   "name": "@rubixibuc/with-styles",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "react style hoc",
   "main": "dist/with-styles.js",
   "scripts": {
